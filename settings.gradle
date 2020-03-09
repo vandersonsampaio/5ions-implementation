@@ -1,6 +1,9 @@
 rootProject.name = '5ions-implementation'
 
-include 'implementation.client'
-include 'implementation.model'
-include 'implementation.service'
-include 'implementation.controller'
+include 'implementation.client',
+        'implementation.model',
+        'implementation.service',
+        'implementation.controller'
+
+includeBuild '../5Ions-accessdata'
+includeBuild '../5Ions-annotation'
