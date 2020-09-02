@@ -7,3 +7,7 @@ include 'implementation.client',
 
 includeBuild '../5Ions-accessdata'
 includeBuild '../5Ions-annotation'
+includeBuild '../5Ions-calculation'
+includeBuild '../5Ions-correlation'
+includeBuild '../5Ions-prediction'
+includeBuild '../5Ions-weightsAdjustment'

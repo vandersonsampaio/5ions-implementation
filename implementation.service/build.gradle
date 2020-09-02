@@ -8,4 +8,16 @@ dependencies {
 
     implementation '5Ions-annotation:annotation.client'
     implementation '5Ions-annotation:annotation.model'
+
+    implementation '5Ions-calculation:calculation.client'
+    implementation '5Ions-calculation:calculation.model'
+
+    implementation '5Ions-correlation:correlation.client'
+    implementation '5Ions-correlation:correlation.model'
+
+    implementation '5Ions-prediction:prediction.client'
+    implementation '5Ions-prediction:prediction.model'
+
+    implementation '5Ions-weightsAdjustment:weightsAdjustment.client'
+    implementation '5Ions-weightsAdjustment:weightsAdjustment.model'
 }
