@@ -1,23 +1,15 @@
 dependencies {
     implementation project(':implementation.model')
+    implementation project(':implementation.client')
 
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
-    implementation '5Ions-accessdata:accessdata.client'
-    implementation '5Ions-accessdata:accessdata.model'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    implementation 'io.github.openfeign:feign-gson:9.4.0'
 
-    implementation '5Ions-annotation:annotation.client'
-    implementation '5Ions-annotation:annotation.model'
+    //implementation '5Ions-accessdata:accessdata.client'
+    //implementation '5Ions-accessdata:accessdata.model'
 
-    implementation '5Ions-calculation:calculation.client'
-    implementation '5Ions-calculation:calculation.model'
-
-    implementation '5Ions-correlation:correlation.client'
-    implementation '5Ions-correlation:correlation.model'
-
-    implementation '5Ions-prediction:prediction.client'
-    implementation '5Ions-prediction:prediction.model'
-
-    implementation '5Ions-weightsAdjustment:weightsAdjustment.client'
-    implementation '5Ions-weightsAdjustment:weightsAdjustment.model'
+    //implementation '5Ions-annotation:annotation.client'
+    //implementation '5Ions-annotation:annotation.model'
 }
