@@ -5,11 +5,5 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
-    implementation 'io.github.openfeign:feign-gson:9.4.0'
-
-    //implementation '5Ions-accessdata:accessdata.client'
-    //implementation '5Ions-accessdata:accessdata.model'
-
-    //implementation '5Ions-annotation:annotation.client'
-    //implementation '5Ions-annotation:annotation.model'
+    //implementation 'io.github.openfeign:feign-gson:9.4.0'
 }
